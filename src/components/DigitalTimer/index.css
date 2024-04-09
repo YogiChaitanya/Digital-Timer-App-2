@@ -1,0 +1,120 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+  background-size: cover;
+  height: 100vh;
+  padding-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.timer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  width: 600px;
+  height: 600px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-position: center;
+}
+
+.timer-card {
+  background-color: #ffffff;
+  height: 200px;
+  width: 200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 100px;
+
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.controls-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-controller-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.timer-controller-btn {
+  background-color: transparent;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border: none;
+
+  margin-left: 100px;
+}
+
+.timer-controller-icon {
+  height: 40px;
+}
+
+.timer-controller-label {
+  font-size: 30px;
+}
+
+.timer {
+  font-size: 40px;
+  color: #00d9f5;
+  font-weight: bold;
+}
+
+.minutes-controller {
+  padding: 20px;
+}
+
+.paragraph1 {
+  text-align: center;
+}
+.minutes-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.set-timer {
+  height: 60px;
+  width: 120px;
+  color: #0f172a;
+  background-image: linear-gradient(to right, #79fcc1, #cffcf1, #00d9f5);
+  text-align: center;
+
+  border-radius: 5px;
+}
+
+.plus-minus-btn {
+  color: #1e293b;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: transparent;
+
+  border: none;
+}
+
+.timer-level {
+  font-size: 20px;
+}
